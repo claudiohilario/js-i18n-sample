@@ -13,14 +13,14 @@ var i18n = {
   	var dictionaryText = this.dictionary[text]
     
   	if(!params || !dictionaryText) {
-      	return dictionaryText || 'Text "'+text+'" does not exist in dictionary';
-    }
+      		return dictionaryText || 'Text "'+text+'" does not exist in dictionary';
+        }
     
-    for (var param in params) {
-    	dictionaryText = dictionaryText.replace('{'+param+'}', params[param]);
-    }
+        for (var param in params) {
+    		dictionaryText = dictionaryText.replace('{'+param+'}', params[param]);
+    	}
     
-    return dictionaryText;
+    	return dictionaryText;
   }
 }
 
