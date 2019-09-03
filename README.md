@@ -3,7 +3,8 @@
 ## Code
 ```js
 var i18n = {
-	dictionary: {},
+  dictionary: {},
+  
   setDictionary: function(dictionary) {
   	this.dictionary = dictionary;
   },
